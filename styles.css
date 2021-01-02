@@ -1,0 +1,86 @@
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Lobster", cursive;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.8rem;
+  color: rgba(128, 0, 128, 0.815);
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.container {
+  height: 450px;
+  border: 3px solid purple;
+  width: 50%;
+  border-radius: 10px;
+  background-color: rgba(128, 0, 128, 0.486);
+  padding: 5px;
+}
+
+.addNewBtn {
+  margin-top: 10px;
+  width: 100px;
+  letter-spacing: 1px;
+}
+
+/* Ul, li list */
+
+.myList > li {
+  border: 3px solid purple;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  position: relative;
+  left: -10px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.myList {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+ul li {
+  height: 45px;
+}
+
+ul li:nth-child(odd) {
+  background: rgba(128, 0, 128, 0.521);
+}
+
+ul li:hover {
+  background: purple;
+  cursor: pointer;
+}
+
+.delete {
+  position: absolute;
+  top: 1.5px;
+  right: 5px;
+  width: 50px;
+  height: 35px;
+}
+
+.delete:hover {
+  background-color: rgba(255, 0, 0, 0.514);
+  color: white;
+  border: none;
+}
+
+.displayNone {
+  display: none;
+}
